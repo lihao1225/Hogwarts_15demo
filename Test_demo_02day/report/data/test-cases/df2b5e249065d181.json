@@ -1,0 +1,111 @@
+{
+  "uid" : "df2b5e249065d181",
+  "name" : "test_add[0-0-0]",
+  "fullName" : "test_demo_02day.TestDemo_02Day_Cucal#test_add",
+  "historyId" : "7ab7b9c5a30b67259e35a08014856bf1",
+  "time" : {
+    "start" : 1603261727433,
+    "stop" : 1603261727434,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "prepare",
+    "time" : {
+      "start" : 1603261727377,
+      "stop" : 1603261727377,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "20ea778fd94043dc",
+      "name" : "stdout",
+      "source" : "20ea778fd94043dc.txt",
+      "type" : "text/plain",
+      "size" : 10
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "prepare::0",
+    "time" : {
+      "start" : 1603261727595,
+      "stop" : 1603261727595,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo_02day"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo_02Day_Cucal"
+  }, {
+    "name" : "host",
+    "value" : "UES3S11T3U57VLA"
+  }, {
+    "name" : "thread",
+    "value" : "9780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo_02day"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0"
+  }, {
+    "name" : "b",
+    "value" : "0"
+  }, {
+    "name" : "c",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "df2b5e249065d181.json",
+  "parameterValues" : [ "0", "0", "0" ]
+}

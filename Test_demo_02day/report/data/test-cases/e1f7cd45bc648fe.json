@@ -1,0 +1,111 @@
+{
+  "uid" : "e1f7cd45bc648fe",
+  "name" : "test_mul[-1-20--20]",
+  "fullName" : "test_demo_02day.TestDemo_02Day_Cucal#test_mul",
+  "historyId" : "dd90fa6645ea6b1452bfd4657be3503d",
+  "time" : {
+    "start" : 1603261727516,
+    "stop" : 1603261727516,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "prepare",
+    "time" : {
+      "start" : 1603261727377,
+      "stop" : 1603261727377,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "882fd54e65e25129",
+      "name" : "stdout",
+      "source" : "882fd54e65e25129.txt",
+      "type" : "text/plain",
+      "size" : 14
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "prepare::0",
+    "time" : {
+      "start" : 1603261727595,
+      "stop" : 1603261727595,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo_02day"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo_02Day_Cucal"
+  }, {
+    "name" : "host",
+    "value" : "UES3S11T3U57VLA"
+  }, {
+    "name" : "thread",
+    "value" : "9780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo_02day"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "-1"
+  }, {
+    "name" : "b",
+    "value" : "20"
+  }, {
+    "name" : "c",
+    "value" : "-20"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "e1f7cd45bc648fe.json",
+  "parameterValues" : [ "-1", "20", "-20" ]
+}
