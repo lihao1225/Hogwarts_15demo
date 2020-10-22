@@ -15,8 +15,8 @@ class TestHomework():
         self.driver.implicitly_wait(5)
         self.driver.maximize_window()
 
-    # def teardown_method(self):
-    #     # self.driver.quit()
+    def teardown_method(self):
+        self.driver.quit()
 
     def test_homework(self):
         # self.driver.get("https://work.weixin.qq.com/wework_admin/frame")
