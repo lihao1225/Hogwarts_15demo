@@ -35,7 +35,8 @@ class TestDemo_02Day_Cucal:
         else:
             result = prepare.div(a, b)
             try:
-                assert round(result, 1) == c
+                assert round(result, 1) \
+                       == c
             except AssertionError as e:
                 print("参数错误")
                 print(e)
