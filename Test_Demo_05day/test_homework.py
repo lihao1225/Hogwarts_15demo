@@ -17,8 +17,8 @@ class TestHomeWork:
         desired_caps["noReset"] = "True"
         # desired_caps["settings[waitForIdleTimeout]"] =0
         self.driver = webdriver.Remote("http://localhost:4723/wd/hub", desired_caps)
-        self.driver.implicitly_wait(10)
-        time.sleep(10)
+        self.driver.implicitly_wait(30)
+        # time.sleep(10)
 
     def teardown(self):
         self.driver.quit()
