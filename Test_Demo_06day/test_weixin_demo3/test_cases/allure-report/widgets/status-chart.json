@@ -1,0 +1,31 @@
+[ {
+  "uid" : "cf4687838b4d7356",
+  "name" : "test_del_after",
+  "time" : {
+    "start" : 1604400169011,
+    "stop" : 1604400176582,
+    "duration" : 7571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c559fbbb2921895d",
+  "name" : "test_add_num",
+  "time" : {
+    "start" : 1604400093929,
+    "stop" : 1604400142613,
+    "duration" : 48684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "daf972141cdf0ef7",
+  "name" : "test_del_num",
+  "time" : {
+    "start" : 1604400176591,
+    "stop" : 1604400226959,
+    "duration" : 50368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

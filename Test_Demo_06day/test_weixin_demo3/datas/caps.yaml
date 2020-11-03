@@ -1,0 +1,11 @@
+
+desirecaps:
+  platformName: "Android"
+  deviceName: "127.0.0.1:7555"
+  appPackage: "com.tencent.wework"
+  appActivity: ".launch.LaunchSplashActivity"
+  noReset: "True"
+  dontStopAppOnReset: "True"
+server:
+  ip: "localhost"
+  port: "4723"

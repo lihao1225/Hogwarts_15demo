@@ -1,0 +1,86 @@
+{
+  "uid" : "cf4687838b4d7356",
+  "name" : "test_del_after",
+  "fullName" : "test_del.TestDel#test_del_after",
+  "historyId" : "42f04e11e80ef3a5eb20b96d54682ac0",
+  "time" : {
+    "start" : 1604400169011,
+    "stop" : 1604400176582,
+    "duration" : 7571
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1604400143806,
+      "stop" : 1604400169011,
+      "duration" : 25205
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1604400226960,
+      "stop" : 1604400227906,
+      "duration" : 946
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "suite",
+    "value" : "test_del"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDel"
+  }, {
+    "name" : "host",
+    "value" : "UES3S11T3U57VLA"
+  }, {
+    "name" : "thread",
+    "value" : "5040-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_del"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "cf4687838b4d7356.json",
+  "parameterValues" : [ ]
+}
