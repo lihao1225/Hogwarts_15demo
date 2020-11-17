@@ -1,5 +1,4 @@
 from Test_Demo_04day.test_weixin_demo2.page.main_page import MainPage
-import time
 import random
 
 
