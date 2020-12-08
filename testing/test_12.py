@@ -1,6 +1,6 @@
+import re
+
 
 def test_1():
-    a = 1
-    b = 0.15
-    print(a * b)
-    print(type(a) != int or type(a)!=float)
+    a = re.findall("([^:]+)$",'mobile existed:lihao29964582')
+    print(a[0])
